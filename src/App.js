@@ -1,10 +1,12 @@
-import logo from './logo.svg';
+import { Routes } from 'react-router-dom';
 import './App.css';
+import Header from './Pages/Home/Header/Header';
 
 function App() {
   return (
     <div>
-      <h2>Hello world</h2>
+      <Header/>
+      
     </div>
   );
 }

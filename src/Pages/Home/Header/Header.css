@@ -1,0 +1,16 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+.nav-link div {
+  display: inline-block;
+  margin-left: 35px;
+}
+.header-img {
+  width: 100%;
+}
