@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.css';
 import logo from '../../../images/header-logo.png';
-import CustomLink from '../CustomLink/CustomLink';
+import CustomLink from '../../Home/CustomLink/CustomLink';
 
 const Header = () => {
   return (
@@ -14,7 +14,7 @@ const Header = () => {
         <CustomLink to='/home'>Home</CustomLink>
         <CustomLink to='/services'>Services</CustomLink>
         <CustomLink to='/blogs'>Blogs</CustomLink>
-        <CustomLink to='/aboutme'>About Me</CustomLink>
+        <CustomLink to='/about'>About Me</CustomLink>
         <CustomLink to='/login'>Login</CustomLink>
       </div>
     </nav>
