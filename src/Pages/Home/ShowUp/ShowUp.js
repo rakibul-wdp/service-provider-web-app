@@ -5,7 +5,7 @@ const ShowUp = () => {
   return (
     <>
       <h2>Best Capture</h2>
-      <div class='wrapper'>
+      <div className='wrapper'>
         <img src='https://source.unsplash.com/random/600x600?water' alt='' />
         <img src='https://source.unsplash.com/random/600x600?summer' alt='' />
         <img src='https://source.unsplash.com/random/600x600?plants' alt='' />
