@@ -15,7 +15,7 @@ const Service = ({ service }) => {
       <div className='text-container'>
         <h3>{name}</h3>
         <p className='m-0'>Price: ${price}</p>
-        <p><small>{description.slice(0, 50)}</small></p>
+        <p><small>{description.slice(0, 50)}...</small></p>
         <button>Buy</button>
       </div>
     </div>
