@@ -5,8 +5,8 @@ import './Service.css';
 const Service = ({ service }) => {
   const { id, img, name, description, price } = service;
   const navigate = useNavigate();
-
-  const navigateProductDetails = id => {
+  
+  const navigateProductDetails = (id) => {
     navigate(`/product/${id}`);
   }
   return (

@@ -1,0 +1,12 @@
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-with-social {
+  display: flex;
+  flex-direction: column;
+}
+.login-from input:not([type=checkbox]){
+    display: block;
+}

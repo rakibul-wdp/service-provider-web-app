@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from '../../Shared/Footer/Footer';
 import Intro from '../Intro/Intro';
 import Services from '../Services/Services';
 import ShowUp from '../ShowUp/ShowUp';
@@ -10,7 +9,6 @@ const Home = () => {
       <Intro/>
       <Services/>
       <ShowUp/>
-      <Footer/>
     </div>
   );
 };
