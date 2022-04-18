@@ -5,7 +5,7 @@ import './Services.css';
 const Services = () => {
   const [services] = useServices();
   return (
-    <div>
+    <div id='services'>
       <h2>My Services</h2>
       <div className='services-container'>
         {services.map((service) => (
