@@ -3,42 +3,42 @@
     "id": 1,
     "name": "Dear",
     "price": "300",
-    "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+    "description": "Dear is the most beautiful animal as you can see in this picture.",
     "img": "https://121clicks.com/wp-content/uploads/2012/04/wildlife_photographer_website_24.jpg"
   },
   {
     "id": 2,
     "name": "Shiyal",
     "price": "100",
-    "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+    "description": "Shiyal is the most clever wild in the jungle but also he is beautiful.",
     "img": "https://121clicks.com/wp-content/uploads/2012/04/wildlife_photographer_website_18.jpg"
   },
   {
     "id": 3,
     "name": "Egol",
     "price": "150",
-    "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+    "description": "Egol is the bird of king in. It means his attutude is next level for his eye.",
     "img": "https://121clicks.com/wp-content/uploads/2012/04/wildlife_photographer_website_15.jpg"
   },
   {
     "id": 4,
     "name": "Pair Egol",
     "price": "180",
-    "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+    "description": "Pair Egol is fighiting each other and looking so beautiful and war for fish.",
     "img": "https://121clicks.com/wp-content/uploads/2012/04/wildlife_photographer_website_09.jpg"
   },
   {
     "id": 5,
-    "name": "Valluk",
+    "name": "Bear",
     "price": "100",
-    "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.",
+    "description": "Bear is a cold weather wild. Because he is stay in the ice of hill and eat fish.",
     "img": "https://121clicks.com/wp-content/uploads/2012/04/wildlife_photographer_website_04.jpg"
   },
   {
     "id": 6,
     "name": "Angry Shiyal",
     "price": "300",
-    "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+    "description": "Shiyal showing her attutude and so angry for his enemy he want fight with other.",
     "img": "https://121clicks.com/wp-content/uploads/2012/04/wildlife_photographer_website_10.jpg"
   }
 ]

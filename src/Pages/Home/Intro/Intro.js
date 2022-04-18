@@ -6,7 +6,25 @@ const Intro = () => {
   return (
     <div className='intro mt-5'>
       <div className='intro-detail'>
-        <h2>Something Typing</h2>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-md-12 text-center'>
+              <h3 className='animate-charcter'>
+                i am a professional <p>photographer</p>
+              </h3>
+            </div>
+          </div>
+        </div>
+        <p className='intro-para'>
+          Last three years i'm a professional wild life photographer. I'm capture huge photo of wild related. You get
+          beautiful and awesome photo in this website. You can choose photo by your choose. Also I have best capture
+          phot in this website.
+        </p>
+        <p className='intro-para'>
+          In this world i'm visited many country for tourist and capture wild photo. Also you can hire me as a wild life
+          photographer. I can bring professional photo for you. My photo capture capability is so good. You feel free to
+          contact with me for hire for shotting photo. And also you buy photo in my website.
+        </p>
       </div>
       <div className='intro-carousel w-50'>
         <Carousel>
