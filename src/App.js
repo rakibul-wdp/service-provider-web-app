@@ -10,6 +10,7 @@ import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
 import NotFound from './Pages/NotFound/NotFound';
 import Services from './Pages/Home/Services/Services';
 import Blogs from './Pages/Blogs/Blogs';
+import About from './Pages/About/About';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         />
         <Route path='/services' element={<Services/>}/>
         <Route path='/blogs' element={<Blogs/>}/>
+        <Route path='/about' element={<About/>}/>
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Register />} />
         <Route path='*' element={<NotFound/>}/>
