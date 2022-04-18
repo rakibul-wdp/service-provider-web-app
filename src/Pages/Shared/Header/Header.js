@@ -20,7 +20,7 @@ const Header = () => {
       </div>
       <div className='nav-link'>
         <CustomLink to='/home'>Home</CustomLink>
-        <CustomLink to='/home#services'>Services</CustomLink>
+        <CustomLink to='/services'>Services</CustomLink>
         <CustomLink to='/blogs'>Blogs</CustomLink>
         <CustomLink to='/about'>About Me</CustomLink>
         {user ? (

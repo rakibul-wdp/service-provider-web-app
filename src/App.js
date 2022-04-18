@@ -8,6 +8,8 @@ import Register from './Pages/Login/Register/Register';
 import Footer from './Pages/Shared/Footer/Footer';
 import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
 import NotFound from './Pages/NotFound/NotFound';
+import Services from './Pages/Home/Services/Services';
+import Blogs from './Pages/Blogs/Blogs';
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
             </RequireAuth>
           }
         />
+        <Route path='/services' element={<Services/>}/>
+        <Route path='/blogs' element={<Blogs/>}/>
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Register />} />
         <Route path='*' element={<NotFound/>}/>
