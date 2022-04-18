@@ -24,7 +24,7 @@ const Service = ({ service }) => {
         <p>
           <small>{description.slice(0, 60)}...</small>
         </p>
-        <button onClick={() => navigateProductDetails(id)}>Buy</button>
+        <button className='btn btn-primary' onClick={() => navigateProductDetails(id)}>Buy</button>
       </div>
     </div>
   );

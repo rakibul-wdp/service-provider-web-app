@@ -2,11 +2,33 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 5% 0 15% 0;
 }
 .login-with-social {
   display: flex;
   flex-direction: column;
 }
-.login-from input:not([type=checkbox]){
-    display: block;
+.login-from input:not([type='checkbox']) {
+  display: block;
+}
+.classic-login-container {
+  margin-left: 4%;
+}
+.classic-login-heading {
+  font-size: 22px;
+  margin-bottom: 32px;
+}
+.login-from input {
+  border: 1px solid gray;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 576px) {
+  .login-container {
+    display: flex;
+    flex-direction: column;
+  }
 }

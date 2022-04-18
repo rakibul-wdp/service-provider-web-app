@@ -4,12 +4,12 @@ import './Blogs.css';
 
 const Blogs = () => {
   return (
-    <div className='container mt-5'>
+    <div className='container mt-5  blogs-container'>
       <div>
-        <h2>What is the difference between Authorization and Authentication...?</h2>
+        <h2>1. What is the difference between Authorization and Authentication...?</h2>
         <Table striped bordered hover>
           <thead>
-            <tr>
+            <tr className='table-heading'>
               <th className='text-center'>First Name</th>
               <th className='text-center'>Last Name</th>
             </tr>
@@ -55,7 +55,7 @@ const Blogs = () => {
         </Table>
       </div>
       <div>
-        <h2>Why are you using firebase...? What other options do you have to implement authentication...?</h2>
+        <h2>2. Why are you using firebase...? What other options do you have to implement authentication...?</h2>
         <p>
           Mainly I use firebase for authentication. Like users sign up and sign in a website, and their email, name and
           password stored firebase. But firebase not only provide authentication but also provide database, cloud
@@ -74,7 +74,7 @@ const Blogs = () => {
         </ul>
       </div>
       <div>
-        <h2>What other services does firebase provide other than authentication...?</h2>
+        <h2>3. What other services does firebase provide other than authentication...?</h2>
         <p>Firebase is not only provide authentication services, but also provide some important services. There are...</p>
         <ul>
           <li>Cloud Functions</li>

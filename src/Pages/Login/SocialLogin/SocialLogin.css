@@ -1,0 +1,20 @@
+.login-with-social {
+  background: linear-gradient(134deg, hsl(44, 96%, 65%), hsl(34, 95%, 45%));
+  color: hsl(0, 0, 100);
+  padding: 2% 5% 5% 5%;
+}
+.login-with-social button {
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 20px;
+}
+.login-with-social button span {
+  margin-left: 15px;
+  color: white;
+}
+.social-login-heading {
+  margin-bottom: 25px;
+  text-align: center;
+  color: #6d4681;
+}

@@ -19,6 +19,26 @@
     background-position: 200% center;
   }
 }
+.about-container {
+  margin-bottom: 25%;
+}
+.about-details-text {
+  line-height: 30px;
+}
 .image-container img {
   border-radius: 50%;
+}
+
+@media only screen and (max-width: 576px){
+  .about-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 768px){
+  .about-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }

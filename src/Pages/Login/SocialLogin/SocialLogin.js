@@ -7,6 +7,7 @@ import { useSignInWithFacebook, useSignInWithGithub, useSignInWithGoogle } from 
 import auth from '../../../firebase.init';
 import { useNavigate } from 'react-router-dom';
 import Loading from '../../Shared/Loading/Loading';
+import './SocialLogin.css';
 
 const SocialLogin = () => {
   const [signInWithGoogle, googleUser, googleLoading, googleError] = useSignInWithGoogle(auth);
@@ -30,22 +31,22 @@ const SocialLogin = () => {
     navigate('/home');
   }
   return (
-    <div className='login-with-social'>
-      <h2>Sign in with</h2>
+    <div className='login-with-social rounded-start'>
+      <h2 className='social-login-heading'>Sign in with</h2>
       {errorElement}
-      <button onClick={() => signInWithGoogle()}>
+      <button style={{ backgroundColor: '#b07871' }} onClick={() => signInWithGoogle()}>
         <img src={google} alt='' />
         <span>Sign in with Google</span>
       </button>
-      <button onClick={() => signInWithGithub()}>
+      <button style={{ backgroundColor: '#6cc644' }} onClick={() => signInWithGithub()}>
         <img src={github} alt='' />
         <span>Sign in with Github</span>
       </button>
-      <button onClick={() => signInWithFacebook()}>
+      <button style={{ backgroundColor: '#3b5897' }} onClick={() => signInWithFacebook()}>
         <img src={facebook} alt='' />
         <span>Sign in with Facebook</span>
       </button>
-      <button>
+      <button style={{ backgroundColor: '	#53abee' }}>
         <img src={twitter} alt='' />
         <span>Sign in with Twitter</span>
       </button>

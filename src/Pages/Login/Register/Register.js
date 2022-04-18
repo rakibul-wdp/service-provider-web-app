@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
 import Loading from '../../Shared/Loading/Loading';
 import SocialLogin from '../SocialLogin/SocialLogin';
+import './Register.css';
 
 const Register = () => {
   const [agree, setAgree] = useState(false);
@@ -35,8 +36,8 @@ const Register = () => {
   return (
     <div className='container login-container'>
       <SocialLogin />
-      <div>
-        <p>use the classical way</p>
+      <div className='classic-login-container'>
+        <p className='classic-login-heading'>use the classical way</p>
         <form onSubmit={handleRegister} className='login-from'>
           <input type='text' name='name' id='' placeholder='username' />
           <input type='email' name='email' id='' placeholder='email' required />
@@ -45,9 +46,9 @@ const Register = () => {
           <label className={`ps-2 ${agree ? '' : 'text-danger'}`} htmlFor='terms'>
             Accept Capture Wild Nature Terms and Conditions
           </label>
-          <input disabled={!agree} type='submit' value='Login' />
+          <input className='btn btn-primary w-50' disabled={!agree} type='submit' value='Register' />
         </form>
-        <p className='w-50 mx-auto'>
+        <p>
           Already have an account?{' '}
           <span onClick={navigateLogin} style={{ cursor: 'pointer' }} className='text-primary'>
             Please Login

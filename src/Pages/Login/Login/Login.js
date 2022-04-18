@@ -48,16 +48,16 @@ const Login = () => {
   return (
     <div className='container login-container'>
       <SocialLogin />
-      <div>
-        <p>use the classical way</p>
+      <div className='classic-login-container'>
+        <p className='classic-login-heading'>use the classical way</p>
         <form onSubmit={handleSubmit} className='login-from'>
           <input ref={emailRef} type='text' name='name' id='' placeholder='email' required />
           <input ref={passwordRef} type='password' name='password' id='' placeholder='password' required />
-          <input type='submit' value='Login' />
+          <input className='btn btn-primary w-75' type='submit' value='Login' />
         </form>
         {errorElement}
         <p>
-          New to Capture Wild Nature?{' '}
+          New Here?{' '}
           <span onClick={navigateRegister} style={{ cursor: 'pointer' }} className='text-primary'>
             Please Register
           </span>

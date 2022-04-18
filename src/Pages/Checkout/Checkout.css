@@ -1,7 +1,9 @@
 .checkout-from {
-  width: 50%;
-  margin: 0 auto;
+  padding-left: 25%;
 }
 .checkout-from input {
   display: block;
+}
+.checkout-container {
+  margin-bottom: 5%;
 }

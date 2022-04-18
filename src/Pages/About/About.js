@@ -4,8 +4,8 @@ import './About.css';
 
 const About = () => {
   return (
-    <div className='container d-flex justify-content-between  align-items-center'>
-      <div>
+    <div className='container d-flex justify-content-between mt-5 align-items-center about-container'>
+      <div className='w-75 about-details-text'>
         <div className='container'>
           <div className='row'>
             <div className='col-md-12 text-center'>
